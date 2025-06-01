@@ -6,7 +6,7 @@ plugins {
 android {
     namespace 'com.example.autologin'
     compileSdk 34
-
+    
     defaultConfig {
         applicationId "com.example.autologin"
         minSdk 21
@@ -21,7 +21,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    {
+    
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
